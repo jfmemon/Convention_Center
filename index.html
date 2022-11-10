@@ -61,7 +61,7 @@
               <button type="button" class="btn bg-white text-primary fw-bold px-5 mb-4">Book Now</button>
             </div>
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img src="images/banner.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1 class="fw-bold">The perfect venue for your<br>next event</h1>
@@ -70,8 +70,8 @@
               <button type="button" class="btn bg-white text-primary fw-bold px-5 mb-4">Book Now</button>
             </div>
           </div>
-          <div class="carousel-item active">
-            <img src="images/banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-item">
+            <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1 class="fw-bold">The perfect venue for your<br>next event</h1>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua<br>dolor do amet sint. Velit officia consequat
@@ -286,18 +286,25 @@
 
   </main>
 
-  <footer>
-      <div class="row">
-        <div class="col-lg-6">
+  <footer class="bg-black py-5 w-100">
+      <div class="row flex-column-reverse flex-lg-row flex-md-row">
+        <div class="col-lg-6 col-12 col-md-6 d-flex justify-content-center align-items-center text-white">
           <small>©2022.All rights reserved by Elixer ltd.</small>
         </div>
-        <div class="col-lg-6">
-          <h4>Get the app</h4>
-          <img src="" alt="">
-          <img src="" alt="">
+        <div class="col-lg-6 col-12 col-md-6">
+          <h4 class="text-white d-flex justify-content-center">Get the app</h4>
+            <div class="py-2 d-flex justify-content-center align-items-center">
+              <a href="https://play.google.com/store/apps/details?id=com.bKash.customerapp&hl=bn&gl=US&pli=1">
+                <img src="icons/apple.png" alt="" style="width: 120px; height: 40px;">
+              </a>
+            </div>
+            <div class="py-2 d-flex justify-content-center align-items-center">
+              <a href="https://play.google.com/store/apps/details?id=com.konasl.nagad&hl=en&gl=US">
+                <img src="icons/android1.png" alt="" style="width: 120px; height: 40px;">
+              </a>
+            </div>
         </div>
       </div>
-
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
